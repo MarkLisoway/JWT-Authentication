@@ -10,7 +10,7 @@
   left: 0;
 
   height: 250px;
-  width: 300px;
+  width: 25em;
 
   display: flex;
   flex-direction: column;
@@ -23,4 +23,41 @@
     font-weight: bold;
     font-size: 2.5em;
   }
+}
+
+.control-wrapper {
+  width: 18em;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid $text-primary-color;
+  border-radius: 1px;
+  padding: 0 1em;
+  margin-bottom: 10px;
+
+  & > fa-icon {
+    color: $text-primary-color;
+  }
+
+  & > input {
+    padding: 0.75em;
+    font-family: $font-primary;
+    color: $text-primary-color;
+    background: none;
+    border: none;
+    font-size: 1em;
+    width: 80%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.btn-login {
+  width: 100%;
 }
