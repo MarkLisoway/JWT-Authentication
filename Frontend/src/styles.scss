@@ -1,2 +1,8 @@
 @import '~src/sass/_mixins.scss';
 @import '~src/sass/_variables.scss';
+@import '~src/sass/_buttons.scss';
+
+body {
+  background-color: $bg-primary;
+  margin: 0;
+}

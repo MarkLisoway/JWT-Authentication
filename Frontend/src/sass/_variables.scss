@@ -23,8 +23,18 @@ $asbestos: #7f8c8d;
 $asphalt: #34495e;
 $midnight: #2c3e50;
 
-$bg-primary: $asphalt;
+$bg-primary: darken($midnight, 10%);
+$bg-primary-focus: darken($bg-primary, 2%);
+$bg-primary-active: darken($bg-primary-focus, 2%);
 
 $bg-secondary: $clouds;
+
+$color-success: $nephritis;
+$color-success-focus: darken($color-success, 3%);
+$color-success-active: darken($color-success-focus, 3%);
+
+$color-error: $pomegranate;
+$color-error-focus: darken($color-error, 3%);
+$color-error-active: darken($color-success-focus, 3%);
 
 $text-primary-color: $clouds;
