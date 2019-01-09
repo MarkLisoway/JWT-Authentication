@@ -23,7 +23,11 @@ $asbestos: #7f8c8d;
 $asphalt: #34495e;
 $midnight: #2c3e50;
 
-$bg-primary: darken($midnight, 10%);
+$night: #141320;
+$darknight: #0C0B13;
+$jetblack: #0B0B0A;
+
+$bg-primary: $night;
 $bg-primary-focus: darken($bg-primary, 2%);
 $bg-primary-active: darken($bg-primary-focus, 2%);
 
