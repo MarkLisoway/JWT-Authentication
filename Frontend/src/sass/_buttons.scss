@@ -1,0 +1,34 @@
+@import '_variables.scss';
+
+.btn {
+  padding: 0.6em 1.4em;
+  font-family: $font-primary;
+  font-size: 1em;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: $bg-primary;
+  color: $text-primary-color;
+
+  &:hover {
+    background-color: $bg-primary-focus;
+  }
+}
+
+.btn-success {
+  background-color: $color-success;
+  color: $text-primary-color;
+
+  &:hover {
+    background-color: $color-success-focus;
+  }
+}

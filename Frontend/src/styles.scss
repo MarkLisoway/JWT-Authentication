@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~src/sass/_mixins.scss';
+@import '~src/sass/_variables.scss';
+@import '~src/sass/_buttons.scss';
+
+body {
+  background-color: $bg-primary;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
